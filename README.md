@@ -17,7 +17,7 @@
 └──╼ $sudo go build ddos.go 
 ```
 
-## Usage
+## 🧰 Usage
 ```bash
 ┌─[user@parrot]─[~/projects/go]
 └──╼ $sudo go run ddos.go -h
