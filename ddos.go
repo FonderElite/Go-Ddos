@@ -65,6 +65,6 @@ third_arg := flag.Int("requests",65000,"Number of requests to send.")
 flag.Parse()
 Banner()
 fmt.Printf("Time Start: %v\n",time.Now())
-Request(*first_arg)
+go Request(*first_arg)
 MalBytes(*first_arg,*second_arg,*third_arg)
 }
